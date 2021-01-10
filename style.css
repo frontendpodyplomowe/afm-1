@@ -1,7 +1,14 @@
-.containter{
+.containter1{
     background-color: lightyellow;
     border: 10px dotted violet;
     width: 50%;
+}
+
+.containter2{
+    background-color: lightblue;
+    padding: 3rem;
+    width: 80%;
+    font-size: 1.5rem;
 }
 
 p{
@@ -14,4 +21,11 @@ p{
 ul li{
     background-color: blue;
     
+}
+
+
+@media screen and (max-width: 576px){
+    .containter1, .containter2{
+        display: none;
+    }
 }
