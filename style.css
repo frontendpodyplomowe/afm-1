@@ -1,5 +1,7 @@
-body{
+.containter{
     background-color: lightyellow;
+    border: 10px dotted violet;
+    width: 50%;
 }
 
 p{
